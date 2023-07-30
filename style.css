@@ -1,0 +1,74 @@
+@charset "UTF-8";
+body{
+    background-color: #fafafa;
+    width: 100vw; /* 100vw = Tela inteira (largura total da tela, como se fosse 100%)*/
+    height: 100vh; /* 100vh = Tela inteira (altura total da tela, como se fosse 100%)*/
+    display: flex; /* o display: flex; é usado para habilitar algumas funções importantes.*/
+    justify-content: center;/* isso significa justificar-conteúdo, aqui eu quero ao centro. esse alinha na horizontal */
+    align-items: center; /* isso significa alinhar-itens no caso, aqui eu quero ao centro. esse alinha na vertical*/
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.img-celular {
+    width: 450px;
+}
+
+.container {
+    border: 1px solid #d3d3d3;
+    display:flex;
+    flex-direction:column; /* serve para direcionar algo, no caso aqui é o container*/
+    width: 300px;
+    padding: 40px;  
+    
+}
+
+input {
+    height: 36px;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
+
+button {
+    background-color: #0095f6;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.facebook {
+    color: #385185;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.esqueceu-senha {
+    color: #385185;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+     text-decoration: none;
+}
+
+.imagens {
+    position: relative; /* serve para eu deixar a posição relativa em relação a minha caixa(div/imagem) */
+}
+
+.img-insta {
+    height: 520px;
+    position:absolute; /* isso serve para colocar o item absolutamente onde eu quero que ele fique*/
+    left: 153px; /* 153px em relação a esquerda*/
+    top: 26px; /* 26px em relação ao topo */
+
+}
